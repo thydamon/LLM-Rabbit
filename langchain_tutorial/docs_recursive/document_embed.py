@@ -1,7 +1,7 @@
 from langchain_core.vectorstores import InMemoryVectorStore
 from langchain_openai import OpenAIEmbeddings
 
-from docs_recursive.pdf_document_recursive import PDFDocumentRecursive
+from pdf_document_recursive import PDFDocumentRecursive
 
 pdf_document_recursive = PDFDocumentRecursive(file_path="../data/test.pdf")
 docs = pdf_document_recursive.split_documents_recursive(chunk_size=100, chunk_overlap=0)

@@ -1,6 +1,5 @@
 from langchain_core.messages import SystemMessage
 from langchain_core.prompts import ChatPromptTemplate
-from base.LLMFactory import LLMFactory
 
 chat_template = ChatPromptTemplate.from_messages(
     [
