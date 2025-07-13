@@ -1,2 +1,3 @@
-/langchain_tutorial/data
-/.idea
+langchain_tutorial/data
+.idea
+base/openai.env
